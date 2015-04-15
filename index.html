@@ -17,7 +17,7 @@
         <nav role="navigation">
           <ul id="js-centered-navigation-menu" class="centered-navigation-menu show">
             <li class="nav-link"><a href="#skills">Skills</a></li>
-            <li class="nav-link"><a href="#resume">Resume</a></li>
+            <li class="nav-link"><a href="#resume">&nbsp;&nbsp;Work&nbsp;</a></li>
             <li class="nav-link logo">
               <a href="#" class="logo">
                 <img src="img/logo.png">
@@ -54,50 +54,53 @@
 
     <!-- What I Do -->
 
-    <a name="skills"></a><div class="container">
-        <h2>Skills</h2>
-        
+    <a name="skills"></a>
+    <div class="skills">
+      <div class="container">
+          <h2>Skills</h2>
+          
 
-        <ul>
-            <!--- User Research -->
-            <li class="skill">
+          <ul>
+              <!--- User Research -->
+              <li class="skill">
 
-                <img src="img/user-research.svg">
+                  <img src="img/user-research.svg">
+                  
+                  <h3>User Research</h3>
+                  <p>I utilize quantitative and qualitative research methods to find out more about users. Understanding who the users are, as well as their needs and desires is the first step to delivering a great experience.</p>
+              </li>
+              
+              
+              <!--- Lo-fi Design -->
+              <li class="skill">
 
-                <h3>User Research</h3>
-                <p>I utilize quantitative and qualitative research methods to find out more about users. Understanding who the users are, as well as their needs and desires is the first step to delivering a great experience.</p>
-            </li>
-            
-            
-            <!--- Lo-fi Design -->
-            <li class="skill">
+                  <img src="img/lo-fi.svg">
 
-                <img src="img/lo-fi.svg">
-
-                <h3>Low Fidelity Design</h3>
-                <p>Low fidelity design is a crucial part of the design process. Sketches, wireframes, and low fidelity prototypes help me get my ideas in front of users and stakeholders so I can iterate quickly.</p>
-            </li>
-
-
-
-            <!--- High Fidelity Design -->
-            <li class="skill">
-
-                <img src="img/hi-fi.svg">
-
-                <h3>High Fidielity Design</h3>
-                <p>Depending on the project I may use style tiles, pixel perfect mockups, and/or high fidelity prototypes to communicate finalized designs to stakeholders, clients, &amp; cohorts.</p>
-            </li>
-            
-            <!--- Development -->
-            <li class="skill">
-                    <img src="img/dev.svg">
-                <h3>Development</h3>
-                <p>I&#39;m currently participating in <a href="http://www.codecademy.com/labs/offline" target="_blank">Codecademy Labs</a> to improve my prototyping skills and learn more about development. <a href="http://www.codecademy.com/benolger" target="_blank">View my profile</a> to see my progress. </p>
-            </li>
+                  <h3>Low Fidelity Design</h3>
+                  <p>Low fidelity design is a crucial part of the design process. Sketches, wireframes, and low fidelity prototypes help me get my ideas in front of users and stakeholders so I can iterate quickly.</p>
+              </li>
 
 
-        </ul>
+
+              <!--- High Fidelity Design -->
+              <li class="skill">
+
+                  <img src="img/hi-fi.svg">
+
+                  <h3>High Fidielity Design</h3>
+                  <p>Depending on the project I may use style tiles, pixel perfect mockups, and/or high fidelity prototypes to communicate finalized designs to stakeholders, clients, &amp; cohorts.</p>
+              </li>
+              
+              <!--- Development -->
+              <li class="skill">
+                      <img src="img/dev.svg">
+                  <h3>Development</h3>
+                  <p>I&#39;m currently participating in <a href="http://www.codecademy.com/labs/offline" target="_blank">Codecademy Labs</a> to improve my prototyping skills and learn more about development. <a href="http://www.codecademy.com/benolger" target="_blank">View my profile</a> to see my progress. </p>
+              </li>
+
+
+          </ul>
+      </div>
     </div>
 
 
@@ -107,8 +110,8 @@
         <div class="container">
             <div class="message">
                 <img src="img/hw.svg">
-                <p>At <a href="http://heathwallace.com" target="_blank">HeathWallace</a> I provided clients with design solutions that met user needs, while meeting business requirements and staying within technical constraints.</p>
-                <a href="pdf/benolger-resume.pdf" target="_blank"><button class="btn btn-default"><span class="icon-file-pdf"></span> Download Resume</button></a>
+                <p>I most recently worked at <a href="http://heathwallace.com" target="_blank">HeathWallace</a>, where I provided clients with design solutions that met user needs, while meeting business requirements and staying within technical constraints.</p>
+                <a href="pdf/benolger_resume.pdf" target="_blank"><button class="btn btn-default"><span class="icon-file-pdf"></span> Download Resume</button></a>
             </div>
         </div>
     </div>
@@ -116,7 +119,9 @@
 
     <!--- Projects -->
 
-    <a name="projects"></a><div class="projects">
+    <a name="projects"></a>
+    <div class="projects">
+      <div class="container">
 
         <div class="row">
             <div class="message">
@@ -127,35 +132,147 @@
 
         <hr>
 
-        <h1 class="coming-soon">Coming Soon</h1>
+        <div class="modal">
+            <ul>
+                <li class="project">
+                    <label for="modal-1" class="show-tidy"><img src="img/thumb-tidy.png"></label>
+                </li>
 
-        
-<!--         <ul>
-            <li class="project">
-                <img src="img/thumb-tidy.png">
-                <div class="info">
-                    <a href=""><h3>Tidy</h3></a>
-                    <p>Connects users with housecleaners</p>
+                <li class="project">
+                    <label for="modal-1" class="show-otm"><img src="img/thumb-onthemenu.png"></label>
+                </li>
+
+                <li class="project">
+                    <label for="modal-1" class="show-uxmix"><img src="img/thumb-ux-mixed.png"></label>
+                </li>
+
+            </ul>
+
+            <input class="modal-state" id="modal-1" type="checkbox" />
+            <div class="modal-fade-screen">
+                <div class="modal-inner">
+                  <label class="modal-close" for="modal-1"></label>
+                  <div id="tidy">
+                    <img src="img/tidy.svg">
+
+                    <div class="container">
+
+                        <p class="modal-intro">Tidy connects users with the best housecleaners in their area. Tidy seeks to carve out its own place in the market with upfront pricing and consistently good service.</p>
+                        <h3>Project progress</h3>
+                        <p class="modal-content">To begin this project I conducted a competitive evaluation. I looked at a range of competitors from franchise based operations like Merry Maids, to established startups like Homejoy. I found that while these companies have seen a lot of success, they struggle to consistently deliver a great customer experience. From here I began my first draft of requirements for Tidy and did some initial market research which used to create personas. With an idea of who the customers may be in place I created user journeys, and revised my requirements as I came across new ideas.</p>
+
+
+
+                        <h3>Next steps</h3>
+
+                          <p>I'm currently working on the first draft of my annotated wireframes. Once these are complete I will be coding and testing a prototype using <a href="http://ionicframework.com/" target="_blank">ionic</a>. I created a <a href="">style tile</a> for Tidy, and will be using this to guide the visual design of my prototype.</p>
+                        
+                        <p><strong>Assets:</strong> competitive evaluation, personas, user journeys, wireframes, prototype</p>
+
+                        <p><a href="zip/tidy.zip"><button class="tidy"><span class="icon-download3"></span>&nbsp; Project Files</button></a><em>&nbsp; &nbsp;(Prototype Coming Soon)</em></p>
+
+
+
+                        <hr>
+
+                        <h3>Projects</h3>
+
+                        <ul>
+
+                            <li class="project selected">
+                                <img src="img/thumb-tidy.png">
+                            </li>
+
+                            <li class="project">
+                                <a href="javascript:void(0)" class="show-otm"><img src="img/thumb-onthemenu.png"></a>
+                            </li>
+
+                            <li class="project">
+                                <a href="javascript:void(0)" class="show-uxmix"><img src="img/thumb-ux-mixed.png"></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                  </div>
+
+                  <div id="otm">                  
+                    <img src="img/otm.svg">
+                    <div class="container">
+                        
+                        <p class="modal-intro">On the Menu is a simple tool for helping people plan their meals. Users can store recipes, plan their meals, and generate shopping lists all in one place.</p>
+                        <h3>Project progress</h3>
+                        <p class="modal-content">I came up with the idea for On the Menu while learning Ruby on Rails at Codecademy Labs. I worked through a number of ideas by brainstorming and sketching. After this ideation phase, I narrowed down On the Menu's scope to only include its most essential features. I created annotated wireframes and style tiles for my minimum viable product. I'm currently working on developing On the Menu, and will be deploying this project on Heroku.</p>
+                        <h3>Next steps</h3>
+                        <p class="modal-content">Once the MVP has been deployed I will conduct a few guerilla usability tests to see if people understand the purpose of the product, and to weed out any crucial usability problems the UI may have. I will use this feedback to make revisions to the copywriting and UI. The next step will be to conduct a small controlled launch to continue gathering feedback. My hope is that this process will give me an idea of what features would be most important to add to the product, and whether or not users would be willing to pay for it.</p>
+
+                        
+
+                        <hr>
+
+                        <h3>Projects</h3>
+
+                        <ul>
+
+                            <li class="project">
+                                <a href="javascript:void(0)" class="show-tidy"><img src="img/thumb-tidy.png"></a>
+                            </li>
+
+                            <li class="project selected">
+                                <img src="img/thumb-onthemenu.png">
+                            </li>
+
+                            <li class="project">
+                                <a href="javascript:void(0)" class="show-uxmix"><img src="img/thumb-ux-mixed.png"></a>
+                            </li>
+
+                        </ul>
+
+                      </div>
+                  </div>
+
+                  <div id="uxmix">
+                    <img src="img/ux-mixed.svg">
+
+                    <div class="container">
+                        <p class="modal-intro">UX Mix aims to provide the UX community with templates, tutorials and other useful content. Development of UX Mix was done in Ruby on Rails.</p>
+                        <h3>Project progress</h3>
+                        <p class="modal-content">When I first started tackling UX projects in graduate school, one of the first problems I encountered was creating deliverables that felt client-ready. Unlike development where you could easily find open source code, there wasn't anything to use as a base for my UX work. I also found myself spending a lot of time learning about the various ways to express my design ideas outside of my coursework. I had a really difficult time finding a resource that provided me with a list of options available, and when it makes sense to use them.</p>
+                        <p>The goal of UX Mix is to release content that helps these newcomers, as well as provide thought pieces that would interest more seasoned UX professionals. Since I started my career the UX community has grown and there are many more resources available, but I would still like to contribute to what's out there. I created the initial design for this project in Illustrator, and used Ruby on Rails for development. Though Wordpress may have made more sense as a platform, I wanted to spend more time learning Rails. I've deployed the site with placeholder content on Heroku.</p>
+
+                        <h3>Next steps</h3>
+
+                        <p>In preparation for a smooth launch I'm currently working on generating content including templates and tutorials. I'm also looking for collaborators for this project. If you're interested in working togther please send an email to <a href="mailto:benjaminolger@gmail.com">benjaminolger@gmail.com</a>.</p>
+
+                        <p><a href="https://uxmix.herokuapp.com" target="_blank"><button class="uxmix">View on Heroku</button></a></p>
+
+                        <hr>
+
+                        <h3>Projects</h3>
+
+                        <ul>
+
+                            <li class="project">
+                                <a href="javascript:void(0)" class="show-tidy"><img src="img/thumb-tidy.png"></a>
+                            </li>
+
+                            <li class="project">
+                                <a href="javascript:void(0)" class="show-otm"><img src="img/thumb-onthemenu.png"></a>
+                            </li>
+
+                            <li class="project selected">
+                                <img src="img/thumb-ux-mixed.png">
+                            </li>
+
+                        </ul>
+
+                    </div>
+                  </div>
+
                 </div>
-            </li>
+            </div>
 
-            <li class="project">
-                <img src="img/thumb-lootdrop.png">
-                <div class="info">    
-                    <h3><a href="">LootDrop</a></h3>
-                    <p>A new approach to PC game sales</p>
-                </div>
-            </li>
-
-            <li class="project">
-                <img src="img/thumb-material.png">
-                <div class="info">
-                    <h3><a href="/material-design">Material Design</a></h3>
-                    <p>Apps updated to current standards</p>
-                </div>
-            </li>
-        </ul> -->
-
+        </div>
+    </div>
     </div>
 
 
@@ -180,12 +297,15 @@
                     </ul>
 
 
+
                 </div>
             </div>
         </div>
     </div>
 
     <div class="footnote">
+
+
         
         <p>&copy; Benjamin Olger, 2015</p>
 
